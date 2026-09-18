@@ -7,13 +7,13 @@ import java.sql.SQLException;
 public class DBConnection {
 
     private static final String URL =
-            "jdbc:mysql://localhost:3306/quick_health_check";
+            "jdbc:mysql://localhost:3306/quick_health_check"; //jdbc url
 
     private static final String USER =
-            "root";
+            "your_username";
 
     private static final String PASSWORD =
-            "password";
+            "your_password";
 
 
     public static Connection getConnection()
